@@ -13,8 +13,8 @@ public class main {
     public static void main(String[] args) throws FileNotFoundException { 
     	BackgroundPanel backpanel = new BackgroundPanel(new ImageIcon("picture//back.jpg").getImage());
         
-        JFrame lotteryFrame = new JFrame("抽奖活动");
-        lotteryFrame.setTitle("抽奖活动");
+        JFrame lotteryFrame = new JFrame("Lottery");
+        lotteryFrame.setTitle("Lottery");
         lotteryFrame.setLocation(200, 50);
         lotteryFrame.setBackground(new Color(255));
         lotteryFrame.setSize(800, 600);
@@ -54,7 +54,7 @@ public class main {
     
     public static JButton getbutton(JLabel labelName, JLabel labelPic, ArrayList<String> fileList) {
     	Font font = new Font("Courier", Font.BOLD,32);
-    	JButton button = new JButton("开始");
+    	JButton button = new JButton("Start");
     	button.setFont(font);
     	button.addActionListener( new ActionListener()
     	{
